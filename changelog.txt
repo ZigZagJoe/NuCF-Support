@@ -1,0 +1,8 @@
+### 4-2-2025 NuCF_PDS_Update_v1.0.0.1269-RC.bin 
+
+Remove unsafe usage of quickdraw at SecondaryInit (Welcome To Macintosh) time. 
+    The NuCF Utility and CF card icon will now only appear at boot time if the card is bootable.
+	This mostly was an issue with system 7.1 (and earlier, maybe?) & SE30 ROM
+	
+Fix CF card icon to match other drives (but with the CF logo)
+Correct an issue preventing 4 partitions from being created correctly 
